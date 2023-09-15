@@ -105,6 +105,7 @@ Section {
 
 .Blocks{
   position: relative;
+  padding: 20px;
   top: 50px;
   right: 120px;
   height: 380px;
@@ -114,10 +115,10 @@ Section {
 }
 .Block-1{
   text-align: center;
-  margin:5px;
+  position: absolute;
+  left: 10px;
   width: 170px;
   height: 170px;
-  float:left; 
   color: #ffffff;
   font-size: 1.8rem; /* 12px / 16px = 0.75rem */
   font-style: normal;
@@ -125,15 +126,7 @@ Section {
   background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.001), rgba(255, 255, 255, 0.05) );
 }
 .Block-1:hover{
-  text-align: center;
-  margin:5px;
-  width: 170px;
-  height: 170px;
-  float:left; 
-  color: #ffffff;
-  font-size: 1.8rem; /* 12px / 16px = 0.75rem */
-  font-style: normal;
-  font-weight: normal;
+
   border-right: 1px solid rgba(255, 255, 255, 0.336)inset;
   border-bottom:  1px solid rgba(255, 255, 255, 0.336)inset;
   box-shadow: 1px 1px 1px  rgba(255, 255, 255, 0.34) ;
@@ -141,10 +134,10 @@ Section {
 }
 .Block-2{
   text-align: center;
-  margin:5px;
+  position: absolute;
+  right: 60px;
   width: 170px;
   height: 170px;
-  float:left; 
   color: #ffffff;
   font-size: 1.8rem; /* 12px / 16px = 0.75rem */
   font-style: normal;
@@ -153,15 +146,7 @@ Section {
 
 }
 .Block-2:hover{
-  text-align: center;
-  margin:5px;
-  width: 170px;
-  height: 170px;
-  float:left; 
-  color: #ffffff;
-  font-size: 1.8rem; /* 12px / 16px = 0.75rem */
-  font-style: normal;
-  font-weight: normal;
+
   border-left: 1px solid rgba(255, 255, 255, 0.336)inset;
   border-bottom:  1px solid rgba(255, 255, 255, 0.336)inset;
   box-shadow: -1px 1px 1px  rgba(255, 255, 255, 0.34) ;
@@ -170,10 +155,11 @@ Section {
 }
 .Block-3{
   text-align: center;
-  margin:5px;
+  position: absolute;
+  left: 10px;
+  bottom:50px;
   width: 170px;
   height: 170px;
-  float:left; 
   color: #ffffff;
   font-size: 1.8rem; /* 12px / 16px = 0.75rem */
   font-style: normal;
@@ -181,15 +167,7 @@ Section {
   background: linear-gradient(to top right, rgba(255, 255, 255, 0.001), rgba(255, 255, 255, 0.05) );
 }
 .Block-3:hover{
-  text-align: center;
-  margin:5px;
-  width: 170px;
-  height: 170px;
-  float:left; 
-  color: #ffffff;
-  font-size: 1.8rem; /* 12px / 16px = 0.75rem */
-  font-style: normal;
-  font-weight: normal;
+
   border-left: 1px solid rgba(255, 255, 255, 0.336)inset;
   border-bottom:  1px solid rgba(255, 255, 255, 0.336)inset;
   box-shadow: 1px -1px 1px  rgba(255, 255, 255, 0.34) ;
@@ -197,10 +175,12 @@ Section {
 }
 .Block-4{
   text-align: center;
-  margin:5px;
+  position: absolute;
+  right: 60px;
+  bottom: 50px;
   width: 170px;
   height: 170px;
-  float:left; 
+
   color: #ffffff;
   font-size: 1.8rem; /* 12px / 16px = 0.75rem */
   font-style: normal;
@@ -208,15 +188,7 @@ Section {
   background: linear-gradient(to top left, rgba(255, 255, 255, 0.001), rgba(255, 255, 255, 0.05) );
 }
 .Block-4:hover{
-  text-align: center;
-  margin:5px;
-  width: 170px;
-  height: 170px;
-  float:left; 
-  color: #ffffff;
-  font-size: 1.8rem; /* 12px / 16px = 0.75rem */
-  font-style: normal;
-  font-weight: normal;
+
   border-left: 1px solid rgba(255, 255, 255, 0.336)inset;
   border-bottom:  1px solid rgba(255, 255, 255, 0.336)inset;
   box-shadow: -1px -1px 1px  rgba(255, 255, 255, 0.34) ;
@@ -270,8 +242,10 @@ Section {
 @media  (max-width: 768px) {
   .Blocks{
     position: relative;
+      padding: 20px;
+
     top: 50px;
-    right: 120px;
+    right: 20px;
     height: 500px;
     width: 500px;
     float: right; 
@@ -279,10 +253,10 @@ Section {
   }
   .Block-1{
     text-align: center;
-    margin:5px;
-    width: 240px;
-    height: 240px;
-    float:left; 
+    position: absolute;
+    left: 10px;
+    width: 235px;
+    height: 235px;;
     color: #ffffff;
     font-size: 1.8rem; /* 12px / 16px = 0.75rem */
     font-style: normal;
@@ -290,15 +264,7 @@ Section {
     background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.001), rgba(255, 255, 255, 0.05) );
   }
   .Block-1:hover{
-    text-align: center;
-    margin:5px;
-    width: 240px;
-    height: 240px;
-    float:left; 
-    color: #ffffff;
-    font-size: 1.8rem; /* 12px / 16px = 0.75rem */
-    font-style: normal;
-    font-weight: normal;
+
     border-right: 1px solid rgba(255, 255, 255, 0.336)inset;
     border-bottom:  1px solid rgba(255, 255, 255, 0.336)inset;
     box-shadow: 1px 1px 1px  rgba(255, 255, 255, 0.34) ;
@@ -306,10 +272,11 @@ Section {
   }
   .Block-2{
     text-align: center;
-    margin:5px;
-    width: 240px;
-    height: 240px;
-    float:left; 
+    position: absolute;
+    right: 45px;
+    width: 235px;
+    height: 235px;
+  
     color: #ffffff;
     font-size: 1.8rem; /* 12px / 16px = 0.75rem */
     font-style: normal;
@@ -318,15 +285,6 @@ Section {
   
   }
   .Block-2:hover{
-    text-align: center;
-    margin:5px;
-    width: 240px;
-    height: 240px;
-    float:left; 
-    color: #ffffff;
-    font-size: 1.8rem; /* 12px / 16px = 0.75rem */
-    font-style: normal;
-    font-weight: normal;
     border-left: 1px solid rgba(255, 255, 255, 0.336)inset;
     border-bottom:  1px solid rgba(255, 255, 255, 0.336)inset;
     box-shadow: -1px 1px 1px  rgba(255, 255, 255, 0.34) ;
@@ -335,10 +293,12 @@ Section {
   }
   .Block-3{
     text-align: center;
-    margin:5px;
-    width: 240px;
-    height: 240px;
-    float:left; 
+    position: absolute;
+    left: 10px;
+    bottom: 35px;
+    width: 235px;
+    height: 235px;
+
     color: #ffffff;
     font-size: 1.8rem; /* 12px / 16px = 0.75rem */
     font-style: normal;
@@ -346,15 +306,7 @@ Section {
     background: linear-gradient(to top right, rgba(255, 255, 255, 0.001), rgba(255, 255, 255, 0.05) );
   }
   .Block-3:hover{
-    text-align: center;
-    margin:5px;
-    width: 240px;
-    height: 240px;
-    float:left; 
-    color: #ffffff;
-    font-size: 1.8rem; /* 12px / 16px = 0.75rem */
-    font-style: normal;
-    font-weight: normal;
+
     border-left: 1px solid rgba(255, 255, 255, 0.336)inset;
     border-bottom:  1px solid rgba(255, 255, 255, 0.336)inset;
     box-shadow: 1px -1px 1px  rgba(255, 255, 255, 0.34) ;
@@ -362,10 +314,12 @@ Section {
   }
   .Block-4{
     text-align: center;
-    margin:5px;
-    width: 240px;
-    height: 240px;
-    float:left; 
+    position: absolute;
+    right: 45px;
+    bottom: 35px;
+    width: 235px;
+    height: 235px;
+    
     color: #ffffff;
     font-size: 1.8rem; /* 12px / 16px = 0.75rem */
     font-style: normal;
@@ -373,15 +327,6 @@ Section {
     background: linear-gradient(to top left, rgba(255, 255, 255, 0.001), rgba(255, 255, 255, 0.05) );
   }
   .Block-4:hover{
-    text-align: center;
-    margin:5px;
-    width: 240px;
-    height: 240px;
-    float:left; 
-    color: #ffffff;
-    font-size: 1.8rem; /* 12px / 16px = 0.75rem */
-    font-style: normal;
-    font-weight: normal;
     border-left: 1px solid rgba(255, 255, 255, 0.336)inset;
     border-bottom:  1px solid rgba(255, 255, 255, 0.336)inset;
     box-shadow: -1px -1px 1px  rgba(255, 255, 255, 0.34) ;
