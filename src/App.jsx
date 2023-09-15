@@ -4,7 +4,7 @@ import "./App.css";
 import Navbar from "./Components/Navbar";
 import parse from 'html-react-parser';
 
-const serverUrl = "http://127.0.0.1:8000";
+const serverUrl = "http://80.78.255.150";
 
 function App() {
   

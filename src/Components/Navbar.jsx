@@ -4,7 +4,7 @@ import axios from "axios";
 import "./navbar.css";
 import { ReactComponent as Hamburger } from "./assets/burger-menu-svgrepo-com.svg";
 
-const serverUrl = "http://127.0.0.1:8000";
+const serverUrl = "http://80.78.255.150";
 
 const Navbar = () => {
   const [menuData, setMenuData] = useState([]);
